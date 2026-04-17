@@ -1,0 +1,30 @@
+{
+  "name": "aroundyou-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "token": "node scripts/token.js"
+  },
+  "dependencies": {
+    "cloudinary": "^1.41.3",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.12.0",
+    "pg-promise": "^11.6.0",
+    "twilio": "^5.8.2",
+    "uuid": "^11.1.0",
+    "zod": "^3.23.8"
+  }
+}
